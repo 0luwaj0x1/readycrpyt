@@ -1,4 +1,4 @@
-const CryptoJS = require('crypto-js')
+import CryptoJS from 'crypto-js'
 
 const encryptPassword = password =>
   CryptoJS.enc.Hex.stringify(CryptoJS.SHA256(password))
