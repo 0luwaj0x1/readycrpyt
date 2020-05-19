@@ -7,7 +7,7 @@
     "lint": "eslint --ignore-path .gitignore --ext .js .",
     "prettier": "prettier --ignore-path .gitignore \"**/*.(js|json)\"",
     "format": "yarn prettier --write ",
-    "validate": "npm-run-all --parallel lint"
+    "validate": "npm-run-all --parallel lint format"
   },
   "repository": "https://github.com/asyncmania/readycrpt.git",
   "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
