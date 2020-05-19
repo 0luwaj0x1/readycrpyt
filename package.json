@@ -1,0 +1,25 @@
+{
+  "name": "readycrpt",
+  "version": "1.0.0",
+  "description": "hashing functions for readycash",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .js .",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.(js|json)\"",
+    "format": "yarn prettier --write ",
+    "validate": "npm-run-all --parallel lint"
+  },
+  "repository": "https://github.com/asyncmania/readycrpt.git",
+  "author": "Josiah Ilesanmi <ilesanmi.josiah@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.0.0",
+    "eslint-config-prettier": "6.11.0",
+    "husky": "4.2.5",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.5"
+  }
+}
